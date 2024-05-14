@@ -8,46 +8,46 @@ const Footer = () => {
 
     return (
         <Flex
-            className={'footer'}
-            bg={'footerBg'}
-            w={'100vw'}
+            className={''}
+            bg={''}
+            w={''}
             px={4}
             py={1}
-            flexGrow={'0'}
-            flexDirection={'row'}
-            alignItems={'center'}
-            justifyContent={'space-between'}
-            userSelect={'none'}
+            flexGrow={''}
+            flexDirection={''}
+            alignItems={''}
+            justifyContent={''}
+            userSelect={''}
         >
             <Text
-                fontWeight={'md'}
-                fontSize={'xs'}
-                fontFamily={'customFamily'}
-                fontStyle={'normal'}
-                color={'secondaryColor'}
-                textAlign={'center'}
+                fontWeight={''}
+                fontSize={''}
+                fontFamily={''}
+                fontStyle={''}
+                color={''}
+                textAlign={''}
             >
-                A Personal web-based progress tracker based on{' '}
+                {' '}
                 {
                     <a
                         href={originalDsaSheetLink}
                         target={'_blank'}
                         rel="noreferrer"
                     >
-                        <b>A2Z DSA Sheet</b>
+                        <b></b>
                     </a>
                 }{' '}
-                by{' '}
+                {' '}
                 {
                     <a
                         href={originalAuthorLinkedInLink}
                         target={'_blank'}
                         rel="noreferrer"
                     >
-                        <b>Striver</b>
+                        <b></b>
                     </a>
                 }
-                .
+                
             </Text>
 
             <Link
@@ -57,19 +57,19 @@ const Footer = () => {
                 display={{ base: 'none', md: 'flex' }}
             >
                 <Text
-                    w={'fit-content'}
-                    h={'fit-content'}
+                    w={''}
+                    h={''}
                     px={4}
                     py={1}
-                    bg={'secondaryColor'}
-                    borderRadius={'16px'}
-                    fontWeight={'lg'}
-                    fontSize={'xs'}
-                    fontFamily={'customFamily'}
-                    fontStyle={'normal'}
-                    color={'defaultColor'}
+                    bg={''}
+                    borderRadius={''}
+                    fontWeight={''}
+                    fontSize={''}
+                    fontFamily={''}
+                    fontStyle={''}
+                    color={''}
                 >
-                    This Project
+                    
                 </Text>
             </Link>
         </Flex>
